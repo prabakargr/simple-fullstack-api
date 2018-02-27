@@ -21,6 +21,10 @@ app.use(function(req, res, next) {
 
 app.use ('/students',studentsRouter);//users
 
+app.use('/get',function(req,res){
+    res.send('dd')
+})
+
 
 
 
